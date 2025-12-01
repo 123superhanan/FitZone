@@ -1,0 +1,246 @@
+[
+  {
+    "id": 1,
+    "name": "Barbell Bicep Curl",
+    "bodyPart": "biceps",
+    "target": "biceps",
+    "equipment": "barbell",
+    "gifUrl": "https://images.pexels.com/photos/5327467/pexels-photo-5327467.jpeg",
+    "videos": [
+      {
+        "videoId": "ykJmrZ5v0Oo",
+        "title": "Barbell Curl Proper Form",
+        "channelName": "ATHLEAN-X",
+        "thumbnail": "https://i.ytimg.com/vi/ykJmrZ5v0Oo/hqdefault.jpg"
+      },
+      {
+        "videoId": "kwG2ipFRgfo",
+        "title": "Bicep Curl Tips",
+        "channelName": "ScottHermanFitness",
+        "thumbnail": "https://i.ytimg.com/vi/kwG2ipFRgfo/hqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dumbbell Hammer Curl",
+    "bodyPart": "biceps",
+    "target": "biceps",
+    "equipment": "dumbbell",
+    "gifUrl": "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg",
+    "videos": [
+      {
+        "videoId": "TwD-YGVP4Bk",
+        "title": "Hammer Curl Guide",
+        "channelName": "ATHLEAN-X",
+        "thumbnail": "https://i.ytimg.com/vi/TwD-YGVP4Bk/hqdefault.jpg"
+      },
+      {
+        "videoId": "w2VQjK5UWwc",
+        "title": "Massive Arms Hammer Curls",
+        "channelName": "ScottHermanFitness",
+        "thumbnail": "https://i.ytimg.com/vi/w2VQjK5UWwc/hqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Standing Calf Raise",
+    "bodyPart": "calves",
+    "target": "calves",
+    "equipment": "body weight",
+    "gifUrl": "https://t3.ftcdn.net/jpg/07/83/12/54/240_F_783125409_dwrCdZXnpfyPuspQnuCh2nhQlq1dVz2n.jpg",
+    "videos": [
+      {
+        "videoId": "NqGZzGMLUu8",
+        "title": "Standing Calf Raise Tutorial",
+        "channelName": "ATHLEAN-X",
+        "thumbnail": "https://i.ytimg.com/vi/NqGZzGMLUu8/hqdefault.jpg"
+      },
+      {
+        "videoId": "XVtFwQZlCNc",
+        "title": "Bigger Calves Fast",
+        "channelName": "ScottHermanFitness",
+        "thumbnail": "https://i.ytimg.com/vi/XVtFwQZlCNc/hqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Seated Calf Raise",
+    "bodyPart": "calves",
+    "target": "calves",
+    "equipment": "machine",
+    "gifUrl": "http://www.nordicfitness.com.au/cdn/shop/products/psc43x_hero01_1200x1200.png?v=1583995548",
+    "videos": [
+      {
+        "videoId": "F7A3GxOB6g0",
+        "title": "Seated Calf Raise Proper Form",
+        "channelName": "ATHLEAN-X",
+        "thumbnail": "https://i.ytimg.com/vi/F7A3GxOB6g0/hqdefault.jpg"
+      },
+      {
+        "videoId": "9pleK6Wf0cI",
+        "title": "Calf Isolation Move",
+        "channelName": "ScottHermanFitness",
+        "thumbnail": "https://i.ytimg.com/vi/9pleK6Wf0cI/hqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Crunch",
+    "bodyPart": "abs",
+    "target": "abs",
+    "equipment": "body weight",
+    "gifUrl": "https://t3.ftcdn.net/jpg/02/86/12/16/240_F_286121685_p5ocYgHmfgRJUuagkzgVs5bW28nMT4d8.jpg",
+    "videos": [
+      {
+        "videoId": "eCMmmEEyOO0",
+        "title": "Crunch Basics",
+        "channelName": "Athlean-X",
+        "thumbnail": "https://i.ytimg.com/vi/eCMmmEEyOO0/hqdefault.jpg"
+      },
+      {
+        "videoId": "Mi8G5x1pA8E",
+        "title": "Abs Workout Crunch Tips",
+        "channelName": "ScottHermanFitness",
+        "thumbnail": "https://i.ytimg.com/vi/Mi8G5x1pA8E/hqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Leg Raise",
+    "bodyPart": "abs",
+    "target": "abs",
+    "equipment": "body weight",
+    "gifUrl": "https://t4.ftcdn.net/jpg/17/71/85/53/240_F_1771855305_epEFgCptyznr0wuf0YeMVXna5u0R9rwe.jpg",
+    "videos": [
+      {
+        "videoId": "JB2oyawG9KI",
+        "title": "How To Do Leg Raises",
+        "channelName": "ATHLEAN-X",
+        "thumbnail": "https://i.ytimg.com/vi/JB2oyawG9KI/hqdefault.jpg"
+      },
+      {
+        "videoId": "UwMdB5C3vFk",
+        "title": "Lower Abs Killer",
+        "channelName": "ScottHermanFitness",
+        "thumbnail": "https://i.ytimg.com/vi/UwMdB5C3vFk/hqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Glute Bridge",
+    "bodyPart": "glutes",
+    "target": "glutes",
+    "equipment": "body weight",
+    "gifUrl": "https://t3.ftcdn.net/jpg/05/07/61/50/240_F_507615022_rxaaKLm7HxAc4zruEeGxLK1pXMx9Lpjy.jpg",
+    "videos": [
+      {
+        "videoId": "8BBEJ0uNP_Q",
+        "title": "Glute Bridge Tutorial",
+        "channelName": "ATHLEAN-X",
+        "thumbnail": "https://i.ytimg.com/vi/8BBEJ0uNP_Q/hqdefault.jpg"
+      },
+      {
+        "videoId": "nc61a1Yrqsc",
+        "title": "Glute Gains Bridge Form",
+        "channelName": "ScottHermanFitness",
+        "thumbnail": "https://i.ytimg.com/vi/nc61a1Yrqsc/hqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hip Thrust",
+    "bodyPart": "glutes",
+    "target": "glutes",
+    "equipment": "barbell",
+    "gifUrl": "https://t4.ftcdn.net/jpg/17/82/60/27/240_F_1782602716_kdY0or6l8pLu9APWnQPudJnmJCWENija.jpg",
+    "videos": [
+      {
+        "videoId": "LM8XHLYJoYs",
+        "title": "Hip Thrust Masterclass",
+        "channelName": "ATHLEAN-X",
+        "thumbnail": "https://i.ytimg.com/vi/LM8XHLYJoYs/hqdefault.jpg"
+      },
+      {
+        "videoId": "2vjPBrBU-TM",
+        "title": "Glute Strength Hip Thrust",
+        "channelName": "ScottHermanFitness",
+        "thumbnail": "https://i.ytimg.com/vi/2vjPBrBU-TM/hqdefault.jpg"
+      }
+    ]
+  }
+
+
+,
+
+  {
+    "id": 9,
+    "name": "Dumbbell Shoulder Press",
+    "bodyPart": "delts",
+    "target": "shoulders",
+    "equipment": "dumbbell",
+    "gifUrl": "https://media.istockphoto.com/id/1083004376/photo/young-handsome-bodybuilder-doing-shoulder-press.jpg?s=612x612&w=0&k=20&c=84ZETLgGub--gcL8HcecpzFrGzsJvkhosUsS-chk6ps="
+  },
+  {
+    "id": 10,
+    "name": "Lateral Raise",
+    "bodyPart": "delts",
+    "target": "shoulders",
+    "equipment": "dumbbell",
+    "gifUrl": "https://media.istockphoto.com/id/2155499040/photo/portrait-of-motivated-young-man-training-with-dumbbells-at-gym.jpg?s=612x612&w=0&k=20&c=MkpkD6jqJEF8h1DksQqi1rngUL513wDad8q8PMkh88A="
+  },
+  {
+    "id": 11,
+    "name": "Squat",
+    "bodyPart": "quads",
+    "target": "quadriceps",
+    "equipment": "body weight",
+    "gifUrl": "https://media.istockphoto.com/id/1350530956/photo/asian-beautiful-young-woman-stay-home-doing-aerobic-exercise-at-home-attractive-girl-doing.jpg?s=612x612&w=0&k=20&c=Ua2qDyGXvQI0jvLqeyD4wQ4-5UpcbNZRwG_yaqMn1bs="
+  },
+  {
+    "id": 12,
+    "name": "Leg Press",
+    "bodyPart": "quads",
+    "target": "quadriceps",
+    "equipment": "machine",
+    "gifUrl": "https://media.istockphoto.com/id/597631958/photo/man-focused-on-training-legs-on-the-machine.jpg?s=612x612&w=0&k=20&c=_Xb9Jj_7qRt2iFeEEkKEoZgEa_xgN9gtAtsdl8GiToM="
+  },
+  {
+    "id": 13,
+    "name": "Deadlift",
+    "bodyPart": "hamstrings",
+    "target": "hamstrings",
+    "equipment": "barbell",
+    "gifUrl": "https://media.istockphoto.com/id/838386570/photo/strong-man-doing-deadlift-training-in-gym.jpg?s=612x612&w=0&k=20&c=ok5sL3Fr8dos-fthuxQkjTZsIRN9mu0bhNE4RODC9CI="
+  },
+  {
+    "id": 14,
+    "name": "Romanian Deadlift",
+    "bodyPart": "hamstrings",
+    "target": "hamstrings",
+    "equipment": "barbell",
+    "gifUrl": "https://media.istockphoto.com/id/1310957754/photo/man-training-with-barbell.jpg?s=612x612&w=0&k=20&c=-7RI1mb4T4hwhh-D6EFPgSMxRw0zmIMyIB-K0uz9cOA="
+  },
+  {
+    "id": 15,
+    "name": "Plank",
+    "bodyPart": "core",
+    "target": "abs",
+    "equipment": "body weight",
+    "gifUrl": "https://media.istockphoto.com/id/1216992005/photo/fit-woman-working-on-abdominal-muscles-doing-plank-exercise-core-workout-at-home.jpg?s=612x612&w=0&k=20&c=LFAonUHwxdS0tqpAL3FXFNxzjsdjvhr0QCMLH_IT9hY="
+  },
+  {
+    "id": 16,
+    "name": "Russian Twist",
+    "bodyPart": "core",
+    "target": "obliques",
+    "equipment": "body weight",
+    "gifUrl": "https://media.istockphoto.com/id/1363075272/photo/woman-doing-russian-twists-with-a-medicine-ball.jpg?s=612x612&w=0&k=20&c=SoFH8BXCdjB9VGig2J6yuqFMcUhz2mjIhws7YzCyiAU="
+  }
+]
