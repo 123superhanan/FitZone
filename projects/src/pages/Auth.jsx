@@ -1,45 +1,38 @@
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./auth.css";
-
 const Auth = ({ handleLogin }) => {
-  const [signState, setSignState] = useState("Sign In");
+  const [isSignUp, setIsSignUp] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
-
-  const from = location.state?.from?.pathname || "/"; // Default to Home
+  const from = location.state?.from?.pathname || "/";
 
   const handleSubmit = (e) => {
     e.preventDefault();
     handleLogin();
-    navigate(from, { replace: true }); // Redirect to original page
+    navigate(from, { replace: true });
   };
 
   return (
     <div className="login">
       <div className="login-form">
-        <h1>{signState}</h1>
+        <h1>{isSignUp ? "Sign Up" : "Sign In"}</h1>
         <form onSubmit={handleSubmit}>
-          {signState === "Sign Up" && (
-            <input type="text" placeholder="Your Name" />
-          )}
+          {isSignUp && <input type="text" placeholder="Your Name" />}
           <input type="email" placeholder="Email" required />
           <input type="password" placeholder="Password" required />
-          <button type="submit">{signState}</button>
+          <button type="submit">{isSignUp ? "Sign Up" : "Sign In"}</button>
         </form>
-
         <div className="form-switch">
-          {signState === "Sign In" ? (
-            <p>
-              New To FitZone{" "}
-              <span onClick={() => setSignState("Sign Up")}>Sign Up Now</span>
-            </p>
-          ) : (
-            <p>
-              Already Have an Account{" "}
-              <span onClick={() => setSignState("Sign In")}>Sign In Now</span>
-            </p>
-          )}
+          <p>
+            {isSignUp ? "Already have an account?" : "New to FitZone?"}{" "}
+            <span
+              onClick={() => setIsSignUp(!isSignUp)}
+              style={{ cursor: "pointer", color: "#fff", fontWeight: 500 }}
+            >
+              {isSignUp ? "Sign In Now" : "Sign Up Now"}
+            </span>
+          </p>
         </div>
       </div>
     </div>

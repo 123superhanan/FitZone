@@ -1,37 +1,22 @@
-import { useEffect, useState } from "react";
+import React, { Suspense, lazy } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-import WelcomePage from "./pages/WelcomePage";
+import favicon from "./assets/images/Logo.png";
 
-const RootComponent = () => {
-  const [showWelcome, setShowWelcome] = useState(true);
+const link = document.createElement("link");
+link.rel = "icon";
+link.href = favicon;
+document.head.appendChild(link);
 
-  useEffect(() => {
-    const hasSeenWelcome = sessionStorage.getItem("hasSeenWelcome");
+const App = lazy(() => import("./App"));
 
-    if (hasSeenWelcome) {
-      setShowWelcome(false);
-    } else {
-      const timer = setTimeout(() => {
-        setShowWelcome(false);
-        sessionStorage.setItem("hasSeenWelcome", "true");
-      }, 3000);
-
-      return () => clearTimeout(timer);
-    }
-  }, []);
-
-  const handleSkip = () => {
-    setShowWelcome(false);
-    sessionStorage.setItem("hasSeenWelcome", "true");
-  };
-
-  return (
-    <BrowserRouter>
-      {showWelcome ? <WelcomePage onSkip={handleSkip} /> : <App />}
-    </BrowserRouter>
-  );
-};
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RootComponent />);
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Suspense fallback={<div>Loading...</div>}>
+        <App />
+      </Suspense>
+    </BrowserRouter>
+  </React.StrictMode>
+);
